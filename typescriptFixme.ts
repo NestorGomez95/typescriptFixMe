@@ -133,7 +133,7 @@ class Car {
 }
 
 // annotate this array
-var arrayOfAnyType: any[] = [1, "string", false];
+var arrayOfAnyType: (number | string | boolean) [] = [1, "string", false];
 
 // fix the foo object so bar and baz can be added
 interface Foo {
